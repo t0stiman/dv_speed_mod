@@ -1,0 +1,10 @@
+{
+	"Id": "dv_speed_mod",
+	"Version": "0.0.1",
+	"DisplayName": "Speeeed",
+	"Author": "Tostiman",
+	"EntryMethod": "speeeed.Main.Load",
+	"AssemblyName": "speeeed.dll",
+	"HomePage": "https://github.com/t0stiman/dv_speed_mod",
+	"Repository": "https://raw.githubusercontent.com/t0stiman/dv_speed_mod/master/repository.json"
+}
