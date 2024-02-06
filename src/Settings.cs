@@ -10,6 +10,8 @@ namespace speeeed
 		
 		public float jumpSpeedMultiplier = 2f;
 		private string jumpText = "";
+
+		public bool EnableBunnyHopping = true;
 		
 		public void Draw(UnityModManager.ModEntry modEntry)
 		{
@@ -52,6 +54,8 @@ namespace speeeed
 					GUILayout.Label($"'{jumpText}' is not a number");
 				}
 			}
+			
+			EnableBunnyHopping = GUILayout.Toggle(EnableBunnyHopping, "Hold space to keep jumping");
 		}
 
 		public override void Save(UnityModManager.ModEntry modEntry)

@@ -1,6 +1,6 @@
 {
 	"Id": "dv_speed_mod",
-	"Version": "0.0.1",
+	"Version": "0.0.2",
 	"DisplayName": "Speeeed",
 	"Author": "Tostiman",
 	"EntryMethod": "speeeed.Main.Load",
